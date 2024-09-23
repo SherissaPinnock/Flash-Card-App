@@ -1,0 +1,58 @@
+/* Container to hold all widgets */
+.widget-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between each widget */
+    justify-content: space-around; /* Center widgets horizontally */
+    margin: 20px;
+  }
+  
+  /* Individual quiz widget */
+  .quiz-widget {
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 15px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    padding: 20px;
+    width: 200px; /* Fixed width for widgets */
+    height: 150px; /* Fixed height for consistency */
+    text-align: center; /* Center the text */
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .quiz-widget-new{
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 15px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    padding: 20px;
+    width: 200px; /* Fixed width for widgets */
+    height: 150px; /* Fixed height for consistency */
+    text-align: center; /* Center the text */
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  /* Style for the quiz titles */
+  .quiz-widget h3 {
+    margin: 10px 0; /* Adds space around the title */
+    font-size: 1.2em; /* Slightly larger font */
+    font-weight: 600; /* Makes the title bold */
+  }
+  
+  /* Style for the quiz info */
+  .quiz-widget p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555; /* Gray color for the details */
+  }
+
+  .quiz-widget:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+    transform: translateY(-5px); /* Slight lift effect */
+    transition: 0.3s; /* Smooth transition */
+  }
+  
+  

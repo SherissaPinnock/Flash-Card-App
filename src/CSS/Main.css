@@ -1,0 +1,14 @@
+.main{
+    flex: 1; /* Takes up the remaining space */
+    padding: 50px; /* Adds padding inside the main content */
+    background-color: white; /* Background color */
+    overflow-y: auto; /* Optional: enables scrolling if content is too tall */
+}
+
+.subjectheading{
+    font-weight: 600;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}

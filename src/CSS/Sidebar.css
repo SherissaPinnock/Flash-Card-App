@@ -1,0 +1,78 @@
+.sidebar{
+    min-height: 100vh;
+    width: 310px;
+    display: inline-flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    background-color: #EBF4F6;
+    padding: 5px 15px; 
+}
+
+.sidebar img{
+    width: 60px;
+}
+
+.profile {
+    display: flex;
+    align-items: center; /* Vertically align items in the center */
+  }
+  
+  .profile img {
+    margin-right: 10px; /* Add some space between the image and the text */
+  }
+
+  .greeting {
+    font-weight: 800; /* Semi-bold */
+  }
+
+  .stats {
+    display: flex;
+    align-items: center; /* Vertically align items in the center */
+  }
+
+  .stats-table{
+    font-size: smaller;
+  }
+
+  .numbers {
+    display: flex;
+    align-items: center; 
+    font-weight: 500;
+    /* Vertically align items in the center */
+  }
+  .addsubjectbutton {
+    background-color: #088395; /* Set the background color */
+    color: white; /* Set the text color */
+    border: 0px;
+    border-radius: 30px; /* Adjust the border radius */
+    padding: 10px 20px; /* Add some padding */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+
+  .addsubjectbutton svg {
+    margin-right: 8px; /* Space between the icon and the text */
+  }
+  
+  /*.addsubjectbutton:hover {
+    background-color: #0056b3; /* Darker shade on hover 
+    border-color: #0056b3; /* Change border color on hover 
+  }*/
+
+  .subject{
+    font-weight: 700;
+  }
+  
+  .subject-container:hover {
+    border: 0.5px solid #088395; /* Outline color on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow on hover */
+  }
+
+  .subject-container {
+    padding: 5px 2px;
+    border-radius: 8px; /* Curved border */
+    transition: all 0.3s ease; /* Smooth transition for the hover effect */
+  }
+  
+  
+  
